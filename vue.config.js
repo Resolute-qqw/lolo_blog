@@ -8,7 +8,7 @@ module.exports = {
       template: "public/index.html",
       // 在 dist/index.html 的输出
       filename: "index.html",
-      title: "PC",
+      title: "pc",
       // 提取出来的通用 chunk 和 vendor chunk。
       chunks: ["chunk-vendors", "chunk-common", "pc"]
     },
@@ -19,7 +19,7 @@ module.exports = {
       template: "public/index.html",
       // 在 dist/index.html 的输出
       filename: "h5.html",
-      title: "H5",
+      title: "h5",
       // 提取出来的通用 chunk 和 vendor chunk。
       chunks: ["chunk-vendors", "chunk-common", "h5"]
     }
